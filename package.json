@@ -1,35 +1,16 @@
 {
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "eslint-config-prettier": "^2.9.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^6.1.0",
-    "prettier": "^1.10.2",
-    "xo": "^0.18.2"
-  },
-  "scripts": {
-    "lerna": "lerna",
-    "release-stable": "lerna publish --registry=https://registry.npmjs.org/",
-    "release-canary": "lerna publish --cd-version=prerelease --preid=canary --npm-tag=canary --registry=https://registry.npmjs.org/",
-    "precommit": "lint-staged",
-    "lint": "xo",
-    "test": "npm run lint && NODE_ENV=test nyc ava"
-  },
-  "xo": {
-    "extends": "prettier"
-  },
-  "lint-staged": {
-    "*.js": [
-      "npm run lint",
-      "prettier --single-quote --no-semi --write",
-      "git add"
-    ]
-  },
+  "name": "next-css",
+  "version": "0.2.1-canary.5",
+  "main": "src/index.js",
   "dependencies": {
-    "lerna": "^3.0.0-rc.0"
+    "css-loader": "^2.1.0",
+    "extract-css-chunks-webpack-plugin": "^3.3.2",
+    "find-up": "^3.0.0",
+    "ignore-loader": "~0.1.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0"
   },
-  "name": "next-plugins"
+  "devDependencies": {
+    "webpack": "^4.29.5"
+  }
 }
