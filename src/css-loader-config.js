@@ -43,6 +43,7 @@ module.exports = (
           ? 'static/chunks/[name].chunk.css'
           : 'static/chunks/[name].[contenthash:8].chunk.css',
         hmr: dev,
+        reloadAll: dev,
         ignoreOrder: true
       })
     )
