@@ -42,7 +42,7 @@ module.exports = (
         chunkFilename: dev
           ? 'static/chunks/[name].chunk.css'
           : 'static/chunks/[name].[contenthash:8].chunk.css',
-        hot: dev,
+        hmr: dev,
         ignoreOrder: true
       })
     )
