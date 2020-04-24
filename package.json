@@ -5,7 +5,7 @@
   "dependencies": {
     "css-loader": "^3.5.2",
     "extract-css-chunks-webpack-plugin": "^4.7.4",
-    "find-up": "^3.0.0",
+    "find-up": "^4.1.0",
     "ignore-loader": "~0.1.2",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0"
