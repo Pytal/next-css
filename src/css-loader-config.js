@@ -42,8 +42,9 @@ module.exports = (
         chunkFilename: dev
           ? 'static/chunks/[name].chunk.css'
           : 'static/chunks/[name].[contenthash:8].chunk.css',
-        hmr: dev,
+        // hmr: dev,
         reloadAll: dev,
+        esModule: true,
         ignoreOrder: true
       })
     )
@@ -93,7 +94,8 @@ module.exports = (
         modules: cssModules,
         sourceMap: dev,
         importLoaders: loaders.length + (postcssLoader ? 1 : 0),
-        onlyLocals: isServer
+        onlyLocals: isServer,
+        esModule: true
       },
       cssLoaderOptions
     )
