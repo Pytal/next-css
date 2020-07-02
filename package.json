@@ -3,7 +3,7 @@
   "version": "0.2.1-canary.5",
   "main": "src/index.js",
   "dependencies": {
-    "css-loader": "^3.5.3",
+    "css-loader": "^3.6.0",
     "extract-css-chunks-webpack-plugin": "^4.7.5",
     "find-up": "^4.1.0",
     "ignore-loader": "~0.1.2",
