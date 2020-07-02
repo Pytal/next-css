@@ -1,6 +1,6 @@
 {
-  "name": "next-css",
-  "version": "0.2.1-canary.5",
+  "name": "@pytal/next-css",
+  "version": "1.0.0",
   "main": "src/index.js",
   "dependencies": {
     "css-loader": "^3.6.0",
@@ -12,5 +12,6 @@
   },
   "devDependencies": {
     "webpack": "^4.43.0"
-  }
+  },
+  "repository": "github:Pytal/next-css"
 }
