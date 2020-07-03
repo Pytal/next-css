@@ -1,6 +1,6 @@
 {
   "name": "@pytal/next-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "dependencies": {
     "css-loader": "^3.6.0",
