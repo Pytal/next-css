@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "main": "src/index.js",
   "dependencies": {
-    "css-loader": "^3.6.0",
+    "css-loader": "^5.0.0",
     "extract-css-chunks-webpack-plugin": "^4.7.5",
     "find-up": "^4.1.0",
     "ignore-loader": "^0.1.2",
